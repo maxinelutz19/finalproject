@@ -1,0 +1,135 @@
+/* Maxine Lutz */
+/* Final Project: Innovative Women */
+/* January 11th, 2018 */
+
+/* This is the universal selector, allowing the 
+parts of the pages to have different margins*/
+* { 
+    margin: 0;
+    padding: 0; }
+
+/* This gives the header at the top of the page a bottom border */
+header { 
+    border-bottom: 2px solid #816914; }
+
+/* This centers the head/title of the page and gives it a margin on the bottom*/
+h1 {
+	text-align: center; 
+	margin-bottom: 5px; }
+	
+/* This gives a margin for the whole page, specifies the font and 
+background color, and automatically gives all of the sides margins*/
+body {
+	width: 90%;
+	margin: auto;  
+	font-family: Georgia; 
+	background-color: #FCFFC1;}
+
+/* This gives the main header a margin on the top and bottom (biography) */
+h2 { 
+	margin-top: 0px; 
+	margin-bottom: 3px; }
+
+/* This gives the two side column headings a margin, underlines them, 
+and makes them centered in the column */
+h3 {
+margin-top: 10px;
+margin-bottom: 4px;
+text-align: center;
+text-decoration: underline; }
+
+/* This is the CSS for the left column, giving it a width, height,
+the text is on the left, and it gives a border on the right and left */
+#sidebarA {
+    width: 23%;
+    height: 737px;     
+    float: left;
+    border-left: 2px solid #816914; 
+    border-right: 2px solid #816914; }
+
+/* This centers the information in the left column 
+and gives the .p1 a top margin and .p2 a bottom margin*/    
+.p1 {
+margin-top: 10px ;
+text-align: center; }
+.p2 {
+margin-bottom: 10px ;
+text-align: center; }
+
+/* This gives the image in the left column different 
+margins all around it and gives it a border*/
+.img1 { 
+border: 2px solid black; 
+margin-top: 0px;
+margin-right: 10px;
+margin-bottom: 0px;
+margin-left: 58px; }
+
+/* This gives the middle column a width , moves the text left, 
+and gives the text a margin around it */
+main {
+    width: 50%; 
+    float: left; 
+    margin: 15px;
+/*  border-right: 2px solid #ef9c00;
+    border-left: 2px solid #ef9c00;*/ }
+
+/* These give the paragraphs in the middle column a margin */
+.p4 {
+margin: 7px; }
+ 
+/* This floats the image of Blackwell left, gives it a border, and it gives margins around the whole thing */   
+.img2 {
+float: left;
+border: 2px solid black; 
+margin-top: 3px;
+margin-right: 7px;
+margin-bottom: 4px;
+margin-left: 3px; }
+
+/* This image of Blackwell working is moved to the right of the 
+column, gives a border, and give margin */
+.img3 { 
+float: right;
+border: 2px solid black;
+margin: 4px; }
+
+/* This is the CSS for the right column, gives it a width, hight
+floats the text right, and gives it a border on the sides */
+#sidebarB {
+    width: 23%;
+    height: 737px;     
+    float: right;
+    border-left: 2px solid #816914; 
+    border-right: 2px solid #816914; }
+
+/* These paragraphs are the information in the right column, it gives
+it a margin and moves all of the text to the center */
+.p5 {
+margin: 10px;
+text-align: center; }
+
+/*  This image of Blackwell's diploma is given margins on all sides, 
+floats it right, and gives it a border */
+.img4 {
+float: right;
+border: 2px solid black;
+margin-top: 12px;
+margin-right: 65px;
+margin-bottom: 0px;
+margin-left: 30px; }
+
+/* This gives the footer a top border and clears the float */
+footer {
+    clear: both; 
+    border-top: 2px solid #816914; }
+
+/* This is the disclaimer, which floats it to the right of the page*/
+p4 {
+float: right; } 
+
+/* This is the list of my sources at the bottom of the footer that gives it a margin */
+.p6 {
+margin: 4px; 
+}
+	
